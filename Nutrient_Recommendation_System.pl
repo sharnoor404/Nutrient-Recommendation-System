@@ -121,3 +121,76 @@ food('APRICOTS(1 cup,halves)',48,1.4,11.12,2,13,0.39,'FNN','V').
 food('AVOCADOS(1 cup, cubes)',160,2,8.53,6.7,12,0.55,'FNN','V').
 food('BANANAS(1 cup, mashed)',89,1.09,22.84,2.6,5,0.26,'FNN','V').
 
+food('BLACKBERRIES(1 cup)',43,1.39,9.61,5.3,29,0.62,'FNN','V').
+food('BLUEBERRIES(1 cup)',57,0.74,14.49,2.4,6,0.28,'FNN','V').
+food('CHERRIES(1 cup)',63,1.06,16.01,2.1,13,0.36,'FNN','V').
+food('CRABAPPLES(1 cup, slices)',76,0.4,19.95,0,18,0.36,'FNN','V').
+food('CRANBERRIES(1 cup, chopped)',46,0.39,12.2,4.6,8,0.25,'FNN','V').
+food('FIGS(1 large,(2-1/2" dia))',74,0.75,19.18,2.9,35,0.37,'FNN','V').
+food('GOOSEBERRIES(1 cup)',44,0.88,10.18,4.3,25,0.31,'FNN','V').
+food('GRAPES(1 grape)',57,0.81,13.93,3.9,37,0.26,'FNN','V').
+food('GUAVAS(1 cup)',68,2.55,14.32,5.4,18,0.26,'FNN','V').
+food('JACKFRUIT(1 cup, sliced)',95,1.72,23.25,1.5,24,0.23,'FNN','V').
+food('JAVA-PLUM(1 cup)',60,0.72,15.56,0,19,0.19,'FNN','V').
+food('KIWIFRUIT(1 cup, sliced)',61,1.14,14.66,3,34,0.31,'FNN','V').
+food('LITCHIS(1 cup)',66,0.83,16.53,1.3,5,0.31,'FNN','V').
+food('MANGOS(1 cup, pieces)',60,0.82,14.98,1.6,11,0.16,'FNN','V').
+food('MELONS(1 cup, balls)',34,0.84,8.16,0.9,9,0.21,'FNN','V').
+food('ORANGES(1 cup, sections)',47,0.94,11.75,2.4,40,0.1,'FNN','V').
+food('TANGERINES(1 cup, sections)',53,0.81,13.34,1.8,37,0.15,'FNN','V').
+food('PAPAYAS(1 cup, 1" pieces)',43,0.47,10.82,1.7,20,0.25,'FNN','V').
+
+food('PEACHES(1 cup, slices)',39,0.91,9.54,1.5,6,0.25,'FNN','V').
+food('PEARS(1 cup, slices)',57,0.36,15.23,3.1,9,0.18,'FNN','V').
+food('PERSIMMONS(1 fruit,(2-1/2" dia))',70,0.58,18.59,3.6,8,0.15,'FNN','V').
+food('PINEAPPLES(1 cup, chunks)',50,0.54,13.12,1.4,13,0.29,'FNN','V').
+food('PLUMS,RAW(1 cup, sliced)',46,0.7,11.42,1.4,6,0.17,'FNN','V').
+food('POMEGRANATES(0.5 cup, arils (seed/juice sacs))',83,1.67,18.7,4,10,0.3,'FNN','V').
+food('PRICKLY PEARS(1 cup)',41,0.73,9.57,3.6,56,0.3,'FNN','V').
+food('PRUNES(1 cup)',105,0.87,27.8,3.8,17,0.41,'FNN','V').
+food('PUMMELO(1 cup,sections)',38,0.76,9.62,1,4,0.11,'FNN','V').
+food('QUINCES(1 fruit, without refuse)',57,0.4,15.3,1.9,11,0.7,'FNN','V').
+food('RAISINS(1 cup,packed)',299,3.07,79.18,3.7,50,1.88,'FNN','V').
+food('RASPBERRIES(1 cup)',52,1.2,11.94,6.5,25,0.69,'FNN','V').
+food('ROSE-APPLES',25,0.6,5.7,0,29,0.07,'FNN','V').
+food('SAPODILLA(1 cup,pulp)',83,0.44,19.96,5.3,21,0.8,'FNN','V').
+food('STRAWBERRIES(1 cup,halves)',32,0.67,7.68,2,16,0.41,'FNN','V').
+food('WATERMELON(1 cup, balls)',30,0.61,7.55,0.4,7,0.24,'FNN','V').
+food('DATES(1 date, pitted)',277,1.81,74.97,6.7,64,0.9,'FNN','V').
+food('CLEMENTINES(1 fruit)',47,0.85,12.02,1.7,30,0.14,'FNN','V').
+food('HORNED MELON (1 cup)',44,1.78,7.56,0,13,1.13,'FNN','V').
+food('BAKED BEANS(1 cup)',105,4.8,20.49,5.5,50,0.29,'LMAIN','V').
+food('BEANS COOKED(1 cup)',143,9.01,26.22,9,46,2.09,'LMAIN','V').
+food('BEETROOT COOKED(0.5 cup, slices)',44,1.68,9.96,2,16,0.79,'LMAIN','V').
+food('BROCCOLI COOKED(1 cup)',22,1.14,3.81,2.5,100,0.56,'LMAIN','V').
+food('CHICKPEAS COOKED(1 cup)',164,8.86,27.42,7.6,49,2.89,'LMAIN','V').
+food('DRUMSTICK COOKED(1 cup slices)',36,2.09,8.18,4.2,20,0.45,'LMAIN','V').
+food('GREEN CAULIFLOWER COOKED(0.5 cup,(1 peices))',32,3.04,6.28,3.3,32,0.72,'LMAIN','V').
+food('GRILLED BEEF(3 oz)',233,30.06,0,0,7,2.34,'LMAIN','N').
+food('KALE COOKED(1cup,chopped)',28,1.9,5.63,2,72,0.9,'LMAIN','V').
+food('KIDNEY BEANS COOKED(1 cup)',127,8.67,22.8,7.4,28,2.94,'LMAIN','V').
+food('LAMB COOKED(3 oz)',157,27.87,0,0,5,2.11,'LMAIN','N').
+food('LENTILS COOKED(1 cup)',116,9.02,20.13,7.9,19,3.33,'LMAIN','V').
+food('MALABAR SPINACH COOKED(1 cup)',23,2.98,2.71,2.1,124,1.48,'LMAIN','V').
+food('MILLET COOKED(1 cup)',119,3.51,23.67,1.3,3,0.63,'LMAIN','V').
+food('MIXED VEGETABLE(1 cup)',37,1.4,7.31,3.1,21,0.65,'LMAIN','V').
+food('SALMON COOKED(3 oz)',231,25.72,0,0,28,0.91,'LMAIN','N').
+food('TROUT COOKED(1 fillet)',190,26.63,0,0,55,1.92,'LMAIN','N').
+food('ROASTED CHICKEN(3 oz)',220,23.96,0.05,0,13,1.61,'LMAIN','N').
+food('FRIED CHICKEN',218,28.18,1.18,0,13,1.46,'LMAIN','N').
+food('MINCED HAM(1 oz)',263,16.28,1.84,0,10,0.79,'LMAIN','N').
+food('GRILLED CHICKEN(1 serving)',98,19.7,3.7,0,8,1.28,'LMAIN','N').
+food('COOKED PORK(1 oz)',626,7.06,0,0,22,0.46,'LMAIN','N').
+food('BROCCOLI RAAB COOKED(1 NLEA serving)',33,3.83,3.12,2.8,118,1.27,'LMAIN','V').
+food('CABBAGE COOKED(.5 cup, shredded)',23,1.27,5.51,1.9,48,0.17,'LMAIN','V').
+food('CARROTS COOKED(1 tbsp)',35,0.76,8.22,3,30,0.34,'LMAIN','V').
+food('CELERY COOKED(1 cup, diced)',18,0.83,4,1.6,42,0.42,'LMAIN','V').
+food('SWEET CORNS COOKED(1 ear, small (5-1/2" to 6-1/2" long))',96,3.41,20.98,2.4,3,0.45,'LMAIN','V').
+food('COWPEAS COOKED(1 cup)',97,3.17,20.32,5,128,1.12,'LMAIN','V').
+food('EGGPLANT COOKED(1 cup,(1" cubes))',35,0.83,8.73,2.5,6,0.25,'LMAIN','V').
+food('WHITE-FLOWERED GOURD COOKED(1 cup,(1" cubes))',15,0.6,3.69,1.2,24,0.25,'LMAIN','V').
+food('GOURD COOKED(1 cup,(1" pieces))',56,0.66,14.34,2.9,9,0.36,'LMAIN','V').
+food('HYACINTH-BEANS COOKED(1 cup)',50,2.95,9.2,0,41,0.76,'LMAIN','V').
+food('KOHLRABI COOKED(1 cup, slices)',29,1.8,6.69,1.1,25,0.4,'LMAIN','V').
+
+
