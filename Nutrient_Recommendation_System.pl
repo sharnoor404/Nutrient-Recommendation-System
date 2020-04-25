@@ -193,4 +193,82 @@ food('GOURD COOKED(1 cup,(1" pieces))',56,0.66,14.34,2.9,9,0.36,'LMAIN','V').
 food('HYACINTH-BEANS COOKED(1 cup)',50,2.95,9.2,0,41,0.76,'LMAIN','V').
 food('KOHLRABI COOKED(1 cup, slices)',29,1.8,6.69,1.1,25,0.4,'LMAIN','V').
 
+food('GRILLED MUSHROOMS(1 cup, sliced)',29,3.28,4.44,2.2,3,0.4,'LMAIN','V').
+food('LOTUS ROOT COOKED(.5 cup)',66,1.58,16.02,3.1,26,0.9,'LMAIN','V').
+food('WHITE MUSHROOMS COOKED(1 cup, pieces)',28,2.17,5.29,2.2,6,1.74,'LMAIN','V').
+food('OKRA COOKED(0.5 cup, slices)',22,1.87,4.51,2.5,77,0.28,'LMAIN','V').
+food('PEAS COOKED(1 cup)',84,5.36,15.63,5.5,27,1.54,'LMAIN','V').
+food('PEAS&CARROTS COOKED(10 oz)',48,3.09,10.12,3.1,23,0.94,'LMAIN','V').
+food('PIGEONPEAS COOKED(1 cup)',111,5.96,19.49,6.2,41,1.57,'LMAIN','V').
+food('PEPPERS COOKED(1 cup,chopped or strips)',28,0.92,6.7,1.2,9,0.46,'LMAIN','V').
+food('POKEBERRY SHOOTS COOKED(1 cup)',20,2.3,3.1,1.5,53,1.2,'LMAIN','V').
+food('PUMPKIN COOKED(1 cup, mashed)',20,0.72,4.9,1.1,15,0.57,'LMAIN','V').
+food('RADISHES COOKED(1 cup, sliced)',17,0.67,3.43,1.6,17,0.15,'LMAIN','V').
+food('RUTABAGAS COOKED(1 cup, cubes)',30,0.93,6.84,1.8,18,0.18,'LMAIN','V').
+food('SESBANIA FLOWER COOKED(1 cup)',22,1.14,5.23,0,22,0.56,'LMAIN','V').
+food('SOYBEANS COOKED(1 cup)',141,12.35,11.05,4.2,145,2.5,'LMAIN','V').
+food('SPINACH COOKED(1 cup)',23,2.97,3.75,2.4,136,3.57,'LMAIN','V').
+food('SWEET POTATO COOKED(1 cup, mashed)',76,1.37,17.72,2.5,27,0.72,'LMAIN','V').
+food('COOKED TARO(1 cup, sliced)',142,0.52,34.6,5.1,18,0.72,'LMAIN','V').
+food('TURNIPS COOKED(1 cup, cubes)',22,0.71,5.06,2,33,0.18,'LMAIN','V').
+food('ARTICHOKES COOKED(1 artichoke,medium)',51,2.89,11.39,8.6,21,0.61,'LMAIN','V').
+food('ASPARAGUS COOKED(0.5 cup)',22,2.4,4.11,2,23,0.91,'LMAIN','V').
+food('BALSAM-PEAR COOKED(1 cup,(1/2" pieces))',19,0.84,4.32,2,9,0.38,'LMAIN','V').
+food('BAMBOO SHOOTS COOKED(1 cup,(1/2" slices))',11,1.53,1.52,1,12,0.24,'LMAIN','V').
+food('BACON RANCH SALAD(1 serving)',122,8.82,6.08,1,46,0.61,'SALAD','N').
+food('GREEN CAULIFLOWER(1 cup)',31,2.95,6.09,3.2,33,0.73,'SALAD','V').
+food('PAPAD',371,25.56,59.87,18.6,143,7.8,'SALAD','V').
+food('POTATO SALAD WITH EGG(0.5 cup)',157,1.96,16.18,1.3,15,0.5,'SALAD','N').
+food('TUNA SALAD(3 oz)',187,16.04,9.41,0,17,1,'SALAD','N').
+food('VEGETABLE SALAD WITH EGG(1.5 cup)',47,4.04,2.19,0,46,0.31,'SALAD','N').
+food('RADICCHIO(1 cup shredded)',23,1.43,4.48,0.9,19,0.57,'SALAD','V').
+food('RAW BAMBOO SHOOTS(1 cup,(1/2" slices))',27,2.6,5.2,2.2,13,0.5,'SALAD','V').
+food('BROCCOLI(1 cup, chopped)',34,2.82,6.64,2.6,47,0.73,'SALAD','V').
+food('CABBAGE(1 cup, chopped)',25,1.28,5.8,2.5,40,0.47,'SALAD','V').
+food('CARROTS(1 cup, chopped)',41,0.93,9.58,2.8,33,0.3,'SALAD','V').
+food('CAULIFLOWER RAW(1 cup, chopped (1/2" pieces))',25,1.92,4.97,2,22,0.42,'SALAD','V').
+food('CELERY(1 cup, chopped)',16,0.69,2.97,1.6,40,0.2,'SALAD','V').
+food('SWEET CORNS(1 cup)',86,3.27,18.7,2,2,0.52,'SALAD','V').
+food('CORN SALAD(1 cup)',21,2,3.6,0,38,2.18,'SALAD','V').
+food('CUCUMBER(.5 cup, slices)',15,0.65,3.63,0.5,16,0.28,'SALAD','V').
+food('ICEBERG LETTUCE(1 cup, shredded)',14,0.9,2.97,1.2,18,0.41,'SALAD','V').
+food('RADISHES(1 cup, slices)',16,0.68,3.4,1.6,25,0.34,'SALAD','V').
+food('SPINACH RAW(1 cup)',23,2.86,3.63,2.2,99,2.71,'SALAD','V').
+food('GREEN TOMATOES(1 cup)',23,1.2,5.1,1.1,13,0.51,'SALAD','V').
+food('RED TOMATOES(1 cup,cherry tomatoes)',18,0.88,3.89,1.2,10,0.27,'SALAD','V').
+food('TURNIP(1 cup, cubes)',28,0.9,6.43,1.8,30,0.3,'SALAD','V').
+food('BEETROOT(1 cup)',43,1.61,9.56,2.8,16,0.8,'SALAD','V').
+food('HASH BROWN POTATOES(1 cup)',265,3,35.11,3.2,14,0.55,'SOUP','V').
+food('FRENCH FRIES(10 strip)',199,2.9,31.66,2.8,12,0.8,'SOUP','V').
+food('POTATO SALAD(1 cup)',143,2.68,11.17,1.3,19,0.65,'SOUP','V').
+food('BANANA CHIPS(1 oz)',519,2.3,58.4,7.7,18,1.25,'SOUP','V').
+food('CHICKEN SAUSAGE(1 cup, pieces)',295,18.5,0,0,11,1.08,'SOUP','N').
+food('CHICKEN NUGGETS(1 serving)',260,12.43,16.32,1.3,21,0.91,'SOUP','N').
+food('EGG ROLLS(1 piece)',250,8.28,27.29,2.6,40,1.41,'SOUP','N').
+food('FALAFEL(1 patty,(approx 2-1/4" dia))',333,13.31,31.84,0,54,3.42,'SOUP','V').
+food('FISH STICKS(1 stick)',290,23,9,6.1,95,2,'SOUP','N').
+food('GARLIC BREAD(1 slice, presliced)',350,8.36,41.72,2.5,27,3.05,'SOUP','V').
+food('JALAPENOS NACHOS(1 oz)',13,0,3.33,3.3,67,0,'SOUP','V').
+food('ONION RINGS(1serving)',356,4.89,40.72,2.6,21,0.71,'SOUP','V').
+food('POTATO CHIPS(23 pieces)',560,6.72,53.54,4.2,24,1.43,'SOUP','V').
+food('STEW AND MUTTON DUMPLINGS(1 serving)',101,8.71,8.03,0,14,1.79,'SOUP','N').
+food('TORTILLA CHIPS(1 cup)',503,7.79,65.32,5.3,174,2.32,'SOUP','V').
+food('ASPARAGUS SOUP(.5 cup,(4 fl oz))',69,1.82,8.52,0.4,23,0.64,'SOUP','V').
+food('BLACK BEANS SOUP(1 cup,(8 fl oz))',91,4.83,15.42,6.8,35,1.5,'SOUP','V').
+food('MUSHROOM SOUP(1 serving, 1/2 cup)',40,2.38,4.76,0,0,0.29,'SOUP','V').
+food('BEAN AND PORK SOUP(.5 cup)',129,5.88,16.97,5.9,60,1.53,'SOUP','N').
+food('BEANS AND FRANKFURTER SOUP(1 cup,(8 fl oz))',142,7.6,16.75,4.6,66,1.78,'SOUP','N').
+food('BEANS AND HAM SOUP(1 cup,(8 fl oz))',95,5.19,11.16,4.6,32,1.33,'SOUP','N').
+food('CREAM OF CELERY SOUP(.5 cup)',72,1.32,7.03,0.6,32,0.5,'SOUP','V').
+food('CHICKEN NOODLE SOUP(.5 cup)',48,2.37,6.07,0.9,6,0.67,'SOUP','N').
+food('CHICKEN RICE SOUP(1 cup)',53,5.11,5.41,0.4,14,0.78,'SOUP','N').
+food('CHICKEN AND VEGETABLE SOUP(1 cup)',33,1.97,4.68,0.9,14,0.25,'SOUP','N').
+food('LENTIL SOUP WITH HAM(1 cup,(8 fl oz))',56,3.74,8.16,0,17,1.07,'SOUP','N').
+food('CHEDDAR CHEESE SOUP(.5 cup, condensed)',84,0.8,11.44,2.2,36,0.15,'SOUP','V').
+food('CHICKEN BROTH SOUP(1 cup, 8 fl oz)',4,0.28,0.3,0,6,0.02,'SOUP','N').
+food('GRILLED PORK BACON(1 package,(6 oz) yields)',185,24.24,1.35,0,10,0.82,'SOUP','N').
+food('PORK HAM PATTIES(1 patty)',315,12.78,1.69,0,8,1.05,'SOUP','N').
+food('PAN FRIED CANADIAN BACON(1 slice)',146,27.97,1.92,0,7,0.57,'SOUP','N').
+
+
 
