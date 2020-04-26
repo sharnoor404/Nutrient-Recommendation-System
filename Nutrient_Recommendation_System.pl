@@ -303,4 +303,234 @@ user_details:-
 	nutritional_values(Age,Gender,Preference).
 
  
+nutritional_values(Age,Gender,Preference):-
+
+   (    Age>=4,
+
+    Age=<8,
+
+    Gender='F',
+
+    Carbohydrates=130,
+
+    Proteins=19,
+
+    Calories=1200,
+
+    Dietry_Fibre=16.8,
+
+    Calcium=1000,
+
+    Iron=10,
+
+ write('Calories='),
+
+write(Calories),
+
+        write('kcal'),nl,
+
+       write('Proteins='),
+
+write(Proteins),
+
+        write('g'),nl,
+
+write('Carbohydrates='),
+
+write(Carbohydrates),
+
+        write('g'),nl,
+
+     write('Dietry_Fibre='),
+
+write(Dietry_Fibre),
+
+        write('g'),nl,
+
+   write('Calcium='),
+
+write(Calcium),
+
+   write('mg'),nl,   
+
+   write('Iron='),
+
+write(Iron),
+
+   write('mg'),nl,
+         check_bf(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference));
+
+    (   Age>=4,
+
+    Age=<8,
+
+    Gender='M',
+
+   Carbohydrates=130,
+
+    Proteins=19,
+
+    Calories=1500,
+
+    Dietry_Fibre=19.6,
+
+    Calcium=1000,
+
+    Iron=10,
+
+ write('Calories='),
+
+write(Calories),
+
+        write('kcal'),nl,
+
+       write('Proteins='),
+
+write(Proteins),
+
+        write('g'),nl,
+
+write('Carbohydrates='),
+
+write(Carbohydrates),
+
+        write('g'),nl,
+
+     write('Dietry_Fibre='),
+
+write(Dietry_Fibre),
+
+        write('g'),nl,
+
+   write('Calcium='),
+
+write(Calcium),
+
+   write('mg'),nl,
+
+   write('Iron='),
+
+write(Iron),
+
+   write('mg'),nl,
+
+         check_bf(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference));
+  
+
+    (   Age>=9,
+
+    Age=<13,
+
+    Gender='F',
+
+   Carbohydrates=130,
+
+    Proteins=34,
+
+    Calories=1600,
+
+    Dietry_Fibre=22.4,
+
+    Calcium=1300,
+
+    Iron=8,
+
+ write('Calories='),
+
+write(Calories),
+
+        write('kcal'),nl,
+
+       write('Proteins='),
+
+write(Proteins),
+
+        write('g'),nl,
+
+write('Carbohydrates='),
+
+write(Carbohydrates),
+
+        write('g'),nl,
+
+     write('Dietry_Fibre='),
+
+write(Dietry_Fibre),
+
+        write('g'),nl,
+
+   write('Calcium='),
+
+write(Calcium),
+
+   write('mg'),nl, 
+
+   write('Iron='),
+
+write(Iron),
+
+   write('mg'),nl,
+
+ 
+      check_bf(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference));
+
+  
+
+     (   Age>=9,
+
+    Age=<13,
+
+    Gender='M',
+
+   Carbohydrates=130,
+
+    Proteins=34,
+
+    Calories=1800,
+
+    Dietry_Fibre=25.2,
+
+    Calcium=1300,
+
+    Iron=8,
+
+ write('Calories='),
+
+write(Calories),
+
+        write('kcal'),nl,
+
+       write('Proteins='),
+
+write(Proteins),
+
+        write('g'),nl,
+
+write('Carbohydrates='),
+
+write(Carbohydrates),
+
+        write('g'),nl,
+
+     write('Dietry_Fibre='),
+
+write(Dietry_Fibre),
+
+        write('g'),nl,
+
+   write('Calcium='),
+
+write(Calcium),
+
+   write('mg'),nl,   
+
+   write('Iron='),
+
+write(Iron),
+
+   write('mg'),nl,
+
+        check_bf(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference));
+  
+
 
