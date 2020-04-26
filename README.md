@@ -1,0 +1,1 @@
+The nutrient recommendation system aims to provide the user with a dynamic diet plan that fulfils the daily nutritional requirements of the user by suggesting meals on the basis of his/her age and gender input.
