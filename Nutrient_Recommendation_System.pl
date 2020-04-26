@@ -272,3 +272,35 @@ food('PAN FRIED CANADIAN BACON(1 slice)',146,27.97,1.92,0,7,0.57,'SOUP','N').
 
 
 
+user_details:-
+
+    write('Enter your name'),
+
+	read(Name),
+
+    write('Enter your Age'),
+
+    read(Age),
+
+    write('Enter your Gender'),
+
+    read(Gender),
+
+     write('Enter if Vegetarian or NonVegetarian(V-Veg,N-Non Veg)'),
+
+      read(Preference),
+
+    write('Your details are-'),nl,
+
+    write(Name),nl,
+
+    write(Age),nl,
+
+    write(Gender),nl,
+
+    write(Preference),nl,
+
+	nutritional_values(Age,Gender,Preference).
+
+ 
+
