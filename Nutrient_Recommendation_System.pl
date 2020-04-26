@@ -994,3 +994,184 @@ write(Iron),
  
         check_bf(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference)).
 
+ 
+check_bf(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference):-
+(   
+         ( 
+             Preference=='V',
+             
+
+          food(A1,B1,C1,D1,E1,F1,G1,'BEV',H1),
+
+                                  food(A2,B2,C2,D2,E2,F2,G2,'FNN',H2),
+
+          food(A3,B3,C3,D3,E3,F3,G3,'BSIDE','V'),
+
+         B1+B3+B2>=0.6*Calories/3,B1+B3+B2=<0.375*Calories,
+
+     C1+C3+C2>=0.6*Proteins/3, C1+C3+C2=<0.375*Proteins,
+
+    D1+D3+D2>=0.6*Carbohydrates/3,D1+D3+D2=<0.375*Carbohydrates,
+
+    E1+E3+E2>=0.6*Dietry_Fibre/3,E1+E3+E2=<0.375*Dietry_Fibre,
+
+     F1+F3+F2>=0.6*Calcium/3,F1+F3+F2=<0.375*Calcium,
+
+     G1+G3+G2>=0.6*Iron/3,G1+G3+G2=<0.375*Iron,
+              write('Breakfast-'),
+
+       write(A1),write(':'),write(H1),nl,
+
+                   write(A2),write(':'),write(H2),nl,
+
+                    write(A3),write(':'),write(Preference),nl,nl,
+              check_lunch(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference)
+
+                                );
+
+     
+
+         (
+          
+             Preference=='N',
+            
+         food(A1,B1,C1,D1,E1,F1,G1,'BEV',H1),
+
+                                  food(A2,B2,C2,D2,E2,F2,G2,'FNN',H2),
+
+          food(A3,B3,C3,D3,E3,F3,G3,'BSIDE',H3),
+
+         B1+B3+B2>=0.6*Calories/3,B1+B3+B2=<0.375*Calories,
+
+     C1+C3+C2>=0.6*Proteins/3, C1+C3+C2=<0.375*Proteins,
+
+    D1+D3+D2>=0.6*Carbohydrates/3,D1+D3+D2=<0.375*Carbohydrates,
+
+    E1+E3+E2>=0.6*Dietry_Fibre/3,E1+E3+E2=<0.375*Dietry_Fibre,
+
+     F1+F3+F2>=0.6*Calcium/3,F1+F3+F2=<0.375*Calcium,
+
+     G1+G3+G2>=0.6*Iron/3,G1+G3+G2=<0.375*Iron,
+
+              write('Breakfast-'),
+        write(A1),write(':'),write(H1),nl,
+
+                                write(A2),write(':'),write(H2),nl,
+
+                                write(A3),write(':'),write(H3),nl,nl,
+              check_lunch(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference))).
+
+check_lunch(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference):-
+    
+         (	
+             Preference=='V',
+            
+          food(A1,B1,C1,D1,E1,F1,G1,'SALAD','V'),
+ food(A2,B2,C2,D2,E2,F2,G2,'LMAIN','V'),
+              food(A3,B3,C3,D3,E3,F3,G3,'BREAD','V'),
+        /*  food(A4,B4,C4,D4,E4,F4,G4,'BREAD','V'),*/
+         B1+B3+B2>=0.2*Calories,B1+B3+B2=<0.5*Calories,
+     C1+C3+C2>=0.2*Proteins, C1+C3+C2=<0.5*Proteins,
+    D1+D3+D2>=0.25*Carbohydrates,D1+D3+D2=<0.5*Carbohydrates,
+    E1+E3+E2>=0.1*Dietry_Fibre,E1+E3+E2=<0.5*Dietry_Fibre,
+     F1+F3+F2>=0.05*Calcium,F1+F3+F2=<0.5*Calcium,
+     G1+G3+G2>=0.2*Iron,G1+G3+G2=<0.5*Iron,
+              write('Lunch-'),
+       write(A1),write(':'),write(Preference),nl,
+write(A2),write(':'),write(Preference),nl,
+write(A3),write(':'),write(Preference),nl,nl,
+        /*  write(A4),write(':'),write(Preference),nl,nl,*/
+       check_dinner(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference)
+);
+     
+         ( 
+         
+             Preference=='N',
+           
+         food(A1,B1,C1,D1,E1,F1,G1,'SALAD',H1),
+ food(A2,B2,C2,D2,E2,F2,G2,'LMAIN',H2),
+            food(A3,B3,C3,D3,E3,F3,G3,'BREAD',H3),
+        /*  food(A4,B4,C4,D4,E4,F4,G4,'BREAD',H4),*/
+         B1+B3+B2>=0.25*Calories/3,B1+B3+B2=<1.25*Calories/3,
+     C1+C3+C2>=0.25*Proteins/3, C1+C3+C2=<1.25*Proteins/3,
+    D1+D3+D2>=0.25*Carbohydrates/3,D1+D3+D2=<1.25*Carbohydrates/3,
+    E1+E3+E2>=0.25*Dietry_Fibre/3,E1+E3+E2=<1.25*Dietry_Fibre/3,
+     F1+F3+F2>=0.25*Calcium/3,F1+F3+F2=<1.25*Calcium/3,
+     G1+G3+G2>=0.25*Iron/3,G1+G3+G2=<1.25*Iron/3,
+               write('Lunch-'),
+        write(A1),write(':'),write(H1),nl,
+write(A2),write(':'),write(H2),nl,
+write(A3),write(':'),write(H3),nl,nl,
+      /*  write(A4),write(':'),write(H4),nl,nl,*/
+             check_dinner(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference)
+).
+
+check_dinner(Calories,Proteins,Carbohydrates,Dietry_Fibre,Calcium,Iron,Preference):-
+
+   
+
+         ( 
+         	
+             Preference=='V', 
+         
+
+          food(A1,B1,C1,D1,E1,F1,G1,'SOUP','V'),
+
+          food(A2,B2,C2,D2,E2,F2,G2,'DMAIN','V'),
+
+          food(A3,B3,C3,D3,E3,F3,G3,'DMAIN2','V'),
+          food(A4,B4,C4,D4,E4,F4,G4,'DESSERT','V'),  
+
+         B1+B3+B2+B4>=0.5*Calories/3,B1+B3+B2+B4=<1.5*Calories/3,
+
+     C1+C3+C2+C4>=0.5*Proteins/3, C1+C3+C2+C4=<1.5*Proteins/3,
+
+    D1+D3+D2+D4>=0.5*Carbohydrates/3,D1+D3+D2+D4=<1.5*Carbohydrates/3,
+
+    E1+E3+E2+E4>=0.5*Dietry_Fibre/3,E1+E3+E2+E4=<1.5*Dietry_Fibre/3,
+
+     F1+F3+F2+F4>=0.5*Calcium/3,F1+F3+F2+F4=<1.5*Calcium/3,
+
+     G1+G3+G2+G4>=0.5*Iron/3,G1+G3+G2+G4=<1.5*Iron/3,
+              write('Dinner-'),
+
+       write(A1),write(':'),write(Preference),nl,
+
+                                write(A2),write(':'),write(Preference),nl,
+                                write(A3),write(':'),write(Preference),nl,
+
+                                write(A4),write(':'),write(Preference),nl,nl
+                                );
+
+     
+
+         ( 	 
+             Preference=='N',  
+        
+         food(A1,B1,C1,D1,E1,F1,G1,'SOUP',H1),
+
+          food(A2,B2,C2,D2,E2,F2,G2,'DMAIN',H2),
+
+          food(A3,B3,C3,D3,E3,F3,G3,'DMAIN2',H3),
+          food(A4,B4,C4,D4,E4,F4,G4,'DESSERT',H4),  
+
+         B1+B3+B2+B4>=0.5*Calories/3,B1+B3+B2+B4=<1.5*Calories/3,
+
+     C1+C3+C2+C4>=0.5*Proteins/3, C1+C3+C2+C4=<1.5*Proteins/3,
+
+    D1+D3+D2+D4>=0.5*Carbohydrates/3,D1+D3+D2+D4=<1.5*Carbohydrates/3,
+
+    E1+E3+E2+E4>=0.5*Dietry_Fibre/3,E1+E3+E2+E4=<1.5*Dietry_Fibre/3,
+
+     F1+F3+F2+F4>=0.5*Calcium/3,F1+F3+F2+F4=<1.5*Calcium/3,
+
+     G1+G3+G2+G4>=0.5*Iron/3,G1+G3+G2+G4=<1.5*Iron/3,
+
+              write('Dinner-'),
+       write(A1),write(':'),write(H1),nl,
+
+                                write(A2),write(':'),write(H2),nl,
+                                write(A3),write(':'),write(H3),nl,
+
+                                write(A4),write(':'),write(H4),nl,nl).
+
